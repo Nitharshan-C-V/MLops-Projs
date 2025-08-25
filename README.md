@@ -10,6 +10,20 @@ conda: as the project complexity increases the requirement of the project will e
 
 We will download and use miniconda version here as the anaconda version which we generally download is a heavy version and consumes high memory, so for light weight useage we will be using miniconda. The download procedure can be identified in the documenatation page.
 
+# WorkFlows:
+
+1. update config.yaml
+2. update secrets.yaml [optional]
+3. update params.yaml
+4. update entity
+5. update the config manager in src config
+6. update the components
+7. update the pipelines
+8. update the main.py
+9. update the dvc.yaml
+10. app.py
+
+
 ## Step 1 : 
 Create a repo in github for the project and clone it to your local system 
 
